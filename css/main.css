@@ -1,0 +1,101 @@
+h1.title{
+    /* font-family: 'Lora', serif; */
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
+}
+
+.navbar-item{
+    font-family: 'Playfair Display', serif;  
+    text-transform: uppercase;
+    -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.navbar-burger span {
+    background-color: #3a2106;
+}
+
+.navbar, .header-spacer, .navbar-burger{
+    height: 4rem;
+}
+
+.navbar-item, .navbar-link{
+    color:#3a2106;
+}
+.subtitle{
+    /* font-family: 'Lora', serif; */
+    font-family: 'Playfair Display', serif;
+    /* font-size: 1.5rem !important; */
+    margin-bottom: .5rem !important;
+}
+
+.title{
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    color: #3a2106;
+}
+
+.section{
+    background: linear-gradient(30deg, rgba(222, 222, 222, .5) 50%, #fff 50%);
+    min-height: 100vh;
+}
+
+.navbar-item img {
+    max-height: 3rem;
+}
+
+a.navbar-item:hover{
+    background-color:#1aab98;
+    color:#fff;
+}
+
+.hero-body{
+    background: url('../images/hero.jpg');
+    background-size: cover;
+    background-position: 50%;
+}
+
+@media screen and (max-width:590px){
+
+}
+
+@media screen and (max-width: 768px){
+    .title.is-1{
+        font-size:2rem;
+    }
+
+    .hero.is-medium-large .hero-body {
+        padding-bottom: 8rem;
+        padding-top: 8rem;
+    }
+
+    .section {
+        padding: 1.5rem 1.5rem;
+    }
+
+    .mobile-hide{
+        display:none;
+    }
+}
+
+@media screen and (min-width: 769px){
+    .hero.is-medium-large .hero-body {
+        padding-bottom: 14rem;
+        padding-top: 14rem;
+    }
+}
+
+@media screen and (min-width: 1088px){
+    .navbar-menu {
+        margin-left: 2rem;
+    }
+
+    .hide{
+        display: none;
+    }
+}
